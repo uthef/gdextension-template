@@ -1,0 +1,4 @@
+build
+.vscode
+godot-project/bin/gdextension*
+!godot-project/bin/gdextension.gdextension
