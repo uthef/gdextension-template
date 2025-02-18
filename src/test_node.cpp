@@ -20,7 +20,5 @@ float TestNode::sum(float a, float b) {
 }
 
 void TestNode::_ready() {
-    if (Engine::get_singleton()->is_editor_hint()) return;
-
     print_line(vformat("Hello from %s!", get_name()));
 }
