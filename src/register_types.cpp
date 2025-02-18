@@ -6,7 +6,7 @@ void initialize_module(ModuleInitializationLevel level) {
         return;
     }
 
-    GDREGISTER_CLASS(TestNode)
+    GDREGISTER_RUNTIME_CLASS(TestNode)
 }
 
 void terminate_module(ModuleInitializationLevel level) {

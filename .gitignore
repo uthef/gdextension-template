@@ -1,4 +1,6 @@
 build
 .vscode
+.vs
 godot-project/bin
 !godot-project/bin/gdextension.gdextension
+.sconsign.dblite
